@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  /* padding: 54px 32px ; */
+  display: grid;
+  place-content: center;
+}
+
+.chakra-ui-light {
+  background-color: #ede0e1 !important;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#__next {
+  position: relative;
+}
+
+img {
+  max-width: none !important;
+}
+
+.swiper {
+  padding-left: 15% !important;
+  padding-bottom: 20% !important;
+  padding-top: 10px !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.swiper-slide-active {
+  transform: translateY(20px) !important;
+  transition: transform 200ms ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7f5af0 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #7f5af0 !important;
+}
+
+@font-face {
+  font-family: 'Wavehaus-Thin';
+  src: url('../fonts/Wavehaus-28Thin.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wavehaus-light';
+  src: url('../fonts/Wavehaus-42Light.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wavehaus-book';
+  src: url('../fonts/Wavehaus-66Book.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wavehaus-semibold';
+  src: url('../fonts/Wavehaus-95SemiBold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wavehaus-bold';
+  src: url('../fonts/Wavehaus-128Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wavehaus-extrabold';
+  src: url('../fonts/Wavehaus-158ExtraBold.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFMonoMedium';
+  src: url('../fonts/SFMonoMedium.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

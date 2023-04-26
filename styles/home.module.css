@@ -1,0 +1,43 @@
+.main {
+  background-color: #ede0e1;
+  max-width: 430px;
+  min-width: 430px;
+  width: 100%;
+}
+
+.top {
+  padding: 0 32px;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+.ScrollHorizontal {
+  width: 100%;
+  padding: 16px 0;
+  overflow-x: scroll;
+}
+
+.container {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+}
+
+.left {
+  transform: translateZ(12%);
+}
+
+.mainCon {
+  background-color: #ede0e1;
+  max-width: 430px;
+  min-width: 430px;
+  width: 100%;
+  padding: 0 32px;
+}
+
+.mainConNav {
+  width: 430px;
+}
